@@ -1,0 +1,33 @@
+1) Посмотреть где я -     pwd
+2) Создать папку -        mkdir terminal1
+3) Зайти в папку -        cd terminal1
+4) Создать 3 папки -      mkdir f1 f2 f3
+5) Зайти в любую папку -  cd f1
+6) Создать 5 файлов (3 txt,2 json)-cat>names.txt cat>mail.txt cat>3.txt  cat>adress.json cat>phone.json
+7) Создать 3 папки        mkdir f1 f2 f3
+8. Вывести список содержимого папки - $ ls
+                                      adress.json  f1/  f2/  f3/  mail.txt  names.txt  pfone.json
+9) + Открыть любой txt файл           $ cat>names.txt 
+10) + написать туда что-нибудь, любой текст. $ cat>names.txt row1 row2 row3
+11) + сохранить и выйти - ctrl +c
+12) Выйти из папки на уровень выше cd ..
+13) переместить любые 2 файла, которые вы создали, в любую другую папку. mv f2/names.txt f3/names3.txt
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку. cp f1/names.txt f2/names.txt
+15) Найти файл по имени find names.txt
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает - grep -n “1” names.txt 
+17) вывести несколько первых строк из текстового файла head -3 names.txt
+18) вывести несколько последних строк из текстового файла tail -3 names.txt
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает  - less names.txt
+20) вывести дату и время date
+
+Задание 1) Отправить http запрос на сервер.
+http://162.55.220.72:5005/terminal-hw-request
+curl http://162.55.220.72:5005/terminal-hw-request
+
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+
+
+Admin@DESKTOP-UTUSP75 MINGW64 /d/terminal/terminal1/f1
+$ find names.txt
+names.txt
+
